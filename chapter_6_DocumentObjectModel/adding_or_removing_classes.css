@@ -1,0 +1,16 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.error{
+    padding: 1rem;
+    color: crimson;
+    border: 1px dotted crimson;
+}
+.success{
+    padding: 1rem;
+    color: limegreen;
+    border: 1px dotted limegreen;
+}

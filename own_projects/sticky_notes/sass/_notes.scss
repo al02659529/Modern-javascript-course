@@ -1,0 +1,102 @@
+.notes{
+  margin-top: 2rem;
+  background-color: $alternate-color-light;
+  width: 100%;
+  max-width: 60vw;
+  min-height: 45vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+
+  &__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 11rem));
+    justify-content: center;
+    background-color: rgba($alternate-color-dark, 0.8);
+    min-height: 11.8rem;
+  }
+
+  &__search{
+    display: flex;
+    grid-column: 1/-1;
+    justify-content: center;
+    position: relative;
+    input{
+      display: block;
+      width: 80%;
+      padding: .5rem 1rem;
+      margin-top: .7rem;
+      margin-bottom: .7rem;
+      border-radius: 10px;
+    }
+
+    &__icon{
+      width: 1.1rem;
+      height: 1.1rem;
+      fill: rgba($alternate-color-dark, .6);
+      position: absolute;
+      top: 35%;
+      right: 13%;
+      cursor: pointer;
+    }
+
+  }
+  &__note{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: $main-col;
+    width: 9rem;
+    height: 9.5rem;
+    font-size: 1.2rem;
+    position: relative;
+  }
+
+  &__icon-trash{
+    width: 1.1rem;
+    height: 1.1rem;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    fill: $alternate-color-dark;
+    transition: all .1s;
+
+    &:hover{
+      cursor: pointer;
+      fill: rgba($alternate-color-dark, 0.8);
+      -webkit-box-shadow: 2px 9px 20px -4px rgba(109,116,117,0.82);
+      -moz-box-shadow: 2px 9px 20px -4px rgba(109,116,117,0.82);
+      box-shadow: 2px 9px 20px -4px rgba(109,116,117,0.82);
+    }
+    &:active{
+      fill: rgba($alternate-color-dark, 0.6);
+      transform: translateY(-.2rem);
+      -webkit-box-shadow: 2px 9px 20px -4px rgba(109,116,117,0.44);
+      -moz-box-shadow: 2px 9px 20px -4px rgba(109,116,117,0.44);
+      box-shadow: 2px 9px 20px -4px rgba(109,116,117,0.44);
+    }
+  }
+
+  &__addNewNote{
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    input{
+      padding: .5rem  3rem;
+      border-radius: 6px;
+      width: 70%;
+      margin: .7rem 0;
+    }
+
+    &__icon{
+      width: 1.1rem;
+      height: 1.1rem;
+      fill: rgba($alternate-color-dark, .6);
+      position: absolute;
+      top: 33%;
+      left: 17%;
+      cursor: pointer;
+    }
+  }
+}

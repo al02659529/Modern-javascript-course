@@ -1,0 +1,19 @@
+{
+  "name": "javascript-course",
+  "version": "1.0.0",
+  "description": "Exercises for this course",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --browser=FIREFOX",
+    "start": "npm run dev"
+  },
+  "author": "Daniel Rosales",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "date-fns": "^2.14.0"
+  }
+}

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb2f7c29-e87a-4e71-8087-84aebe8891bf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+        <option value="CSS File" />
+        <option value="package.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1bvEnmSX5LE0WkpDiJamcpcWgpb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/own_projects/sticky_notes/media/SVG" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.webpack" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rosal\WebstormProjects\Modern JavaScript Course" />
+      <recent name="C:\Users\rosal\WebstormProjects\Modern JavaScript Course\own_projects\forms\style" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rosal\WebstormProjects\Modern JavaScript Course\own_projects\sticky_notes\media\SVG" />
+      <recent name="C:\Users\rosal\WebstormProjects\Modern JavaScript Course\own_projects\sticky_notes\media" />
+      <recent name="C:\Users\rosal\WebstormProjects\Modern JavaScript Course\chapter_10_toDoList\media" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.sandbox.js">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/chapter_11_datesAndTimes/app.js" working-dir="$PROJECT_DIR$/chapter_11_datesAndTimes">
+      <method v="2" />
+    </configuration>
+    <configuration name="sandbox.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/chapter_11_datesAndTimes/date-fns Library/sandbox.js" working-dir="$PROJECT_DIR$/chapter_11_datesAndTimes/date-fns Library">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.sandbox.js" />
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb2f7c29-e87a-4e71-8087-84aebe8891bf" name="Default Changelist" comment="" />
+      <created>1589504338390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589504338390</updated>
+      <workItem from="1589504349823" duration="6452000" />
+      <workItem from="1589569893011" duration="24530000" />
+      <workItem from="1589683189237" duration="1138000" />
+      <workItem from="1589758057548" duration="7000000" />
+      <workItem from="1589831533303" duration="7298000" />
+      <workItem from="1589926136955" duration="13885000" />
+      <workItem from="1589997128311" duration="10250000" />
+      <workItem from="1590106316888" duration="6302000" />
+      <workItem from="1590163887528" duration="22106000" />
+      <workItem from="1590257839229" duration="5807000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="42" key="#Notifications" timestamp="1589998262730">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1589998262730" />
+    <state x="274" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589517181487">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="274" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1589517181487" />
+    <state x="440" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590192307281">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="440" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1590192307281" />
+    <state x="437" y="38" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589926809412">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="437" y="38" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1589926809412" />
+    <state width="530" height="167" key="GridCell.Tab.0.bottom" timestamp="1590263560265">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="530" height="167" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590263560265" />
+    <state width="530" height="167" key="GridCell.Tab.0.center" timestamp="1590263560265">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="530" height="167" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1590263560265" />
+    <state width="530" height="167" key="GridCell.Tab.0.left" timestamp="1590263560265">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="530" height="167" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1590263560265" />
+    <state width="530" height="167" key="GridCell.Tab.0.right" timestamp="1590263560265">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="530" height="167" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1590263560265" />
+    <state x="184" y="26" key="SettingsEditor" timestamp="1590262827943">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1590262827943" />
+    <state x="758" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1589657378150">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="758" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1589657378150" />
+  </component>
+</project>

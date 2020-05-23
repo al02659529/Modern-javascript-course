@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sticky notes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sass/main.css">
+</head>
+<body>
+<header class="header">
+    <h1>Your notes</h1>
+</header>
+<main class="notes">
+    <form class="notes__search">
+        <input type="text" placeholder="Search for notes" name="searchInput">
+        <svg class="notes__search__icon">
+            <use xlink:href="media/SVG/symbol-defs.svg#icon-search"></use>
+        </svg>
+    </form>
+    <div class="notes__container">
+    <div class="notes__note">
+        <p class="notes__text">search for my credit card balance</p>
+        <svg class="notes__icon-trash">
+            <use xlink:href="media/SVG/symbol-defs.svg#icon-bin"></use>
+        </svg>
+
+    </div>
+    <div class="notes__note">
+        <p class="note__text">call mariana tomorrow morning</p>
+        <svg class="notes__icon-trash">
+            <use xlink:href="media/SVG/symbol-defs.svg#icon-bin"></use>
+        </svg>
+    </div>
+    <div class="notes__note">
+        <p class="note__text">Look for more ways to earn money</p>
+        <svg class="notes__icon-trash">
+            <use xlink:href="media/SVG/symbol-defs.svg#icon-bin"></use>
+        </svg>
+    </div>
+    <div class="notes__note">
+        <p class="note__text">Check out Costco's hot deals</p>
+        <svg class="notes__icon-trash">
+            <use xlink:href="media/SVG/symbol-defs.svg#icon-bin"></use>
+        </svg>
+    </div>
+    </div>
+    <form class="notes__addNewNote">
+        <input type="text" placeholder="Add new note" name="newNoteText">
+        <svg class="notes__addNewNote__icon">
+            <use xlink:href="media/SVG/symbol-defs.svg#icon-plus"></use>
+        </svg>
+    </form>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #fff;
+  background-image: linear-gradient(to right bottom, #fff, #ffa);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.form {
+  display: grid;
+}
+
+.bc-orange {
+  background-color: #ff5b32;
+}
+
+.bc-yellow {
+  background-color: #ffc232;
+}
+
+.header {
+  height: 20vh;
+  background-color: #3258ff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Jost", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.form__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 30vw));
+  align-items: center;
+  margin-top: 3rem;
+  border: 1px solid darkgray;
+}
+.form__wrapper__img {
+  display: block;
+  height: 25rem;
+  width: 25rem;
+  margin-left: 10rem;
+}
+.form__wrapper__question {
+  font-size: 3rem;
+  color: whitesmoke;
+  justify-self: start;
+}
+.form__wrapper__answer {
+  min-height: 2rem;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  justify-self: center;
+  margin-right: 3rem;
+}
+.form__wrapper__option {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: navy;
+  font-size: 2rem;
+}
+.form__wrapper__option:not(:first-child) {
+  margin-top: 1.5rem;
+}
+.form__wrapper__option input {
+  margin-left: 1rem;
+  justify-self: start;
+}
+
+.submit__wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
+}
+.submit__wrapper input {
+  background-color: #3258ff;
+  color: #eeeeee;
+  font-size: 2rem;
+  font-family: "Jost", sans-serif;
+  padding: 1.5rem 10rem;
+  border-radius: 10px;
+}
+.submit__wrapper input:hover {
+  background-color: #5b75e6;
+}
+.submit__wrapper input:active, .submit__wrapper input:focus {
+  background-color: #7a89cc;
+}
+
+.results {
+  display: grid;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.results h2 {
+  font-size: 2.5rem;
+  color: black;
+}
+.results span {
+  color: red;
+  font-size: 5rem;
+}
+.results h3 {
+  font-size: 2rem;
+  color: black;
+  justify-self: center;
+}
+
+/*# sourceMappingURL=main.css.map */

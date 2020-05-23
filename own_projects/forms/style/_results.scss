@@ -1,0 +1,19 @@
+.results{
+  display: grid;
+  justify-content: center;
+  margin-top: 2rem;
+  h2{
+    font-size: 2.5rem;
+    color: black;
+
+  }
+  span{
+    color: red;
+    font-size: 5rem;
+  }
+  h3{
+    font-size: 2rem;
+    color: black;
+    justify-self: center;
+  }
+}

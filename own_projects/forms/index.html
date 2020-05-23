@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teacher's daniel quizz</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1 class="container-title">Teacher's Daniel quiz</h1>
+    </div>
+</header>
+<main>
+    <form class="form">
+        <div class="form__wrapper bc-yellow">
+            <img src="media/kid.jpg" class="form__wrapper__img">
+            <label for="studentName" class="form__wrapper__question">1. What is your name?</label>
+            <input type="text" name="studentName" id="studentName" class="form__wrapper__answer">
+        </div>
+        <div class="form__wrapper bc-orange">
+            <img src="media/elbow.jpg" class="form__wrapper__img">
+            <h2 class="form__wrapper__question">2. What is this?</h2>
+
+            <div class="form__wrapper__options">
+            <div class="form__wrapper__option"> <label class="form__wrapper__answer-radio">Eyes</label>
+                <input type="radio" name="q1" value="A" checked></div>
+
+            <div class="form__wrapper__option"> <label class="form__wrapper__answer-radio">Elbow</label>
+                <input type="radio" name="q1" value="B" ></div>
+
+            <div class="form__wrapper__option"> <label class="form__wrapper__answer-radio">Hair</label>
+                <input type="radio" name="q1" value="C"></div>
+            </div>
+        </div>
+        <div class="form__wrapper bc-yellow">
+            <img src="media/hair.jpg" class="form__wrapper__img">
+            <h2 class="form__wrapper__question">3. What is this?</h2>
+
+            <div class="form__wrapper__options">
+                <div class="form__wrapper__option"> <label class="form__wrapper__answer-radio">Eyes</label>
+                    <input type="radio" name="q2" value="A" checked></div>
+
+                <div class="form__wrapper__option"> <label class="form__wrapper__answer-radio">Elbow</label>
+                    <input type="radio" name="q2" value="B" ></div>
+
+                <div class="form__wrapper__option"> <label class="form__wrapper__answer-radio">Hair</label>
+                    <input type="radio" name="q2" value="C"></div>
+            </div>
+        </div>
+        <div class="form__wrapper bc-orange">
+            <img src="media/eyes.jpg" class="form__wrapper__img">
+            <h2 class="form__wrapper__question">4. What is this?</h2>
+
+            <div class="form__wrapper__options">
+                <div class="form__wrapper__option"> <label class="form__wrapper__answer-radio">Eyes</label>
+                    <input type="radio" name="q3" value="A" checked></div>
+
+                <div class="form__wrapper__option"> <label class="form__wrapper__answer-radio">Elbow</label>
+                    <input type="radio" name="q3" value="B" ></div>
+
+                <div class="form__wrapper__option"> <label class="form__wrapper__answer-radio">Hair</label>
+                    <input type="radio" name="q3" value="C"></div>
+            </div>
+        </div>
+        <div class="submit__wrapper"> <input type="submit" value="Submit" class="submit__wrapper__button"></div>
+
+    </form>
+    <section class="results" style="display: none">
+        <h2 class="results_title">You got... <span>0</span> in your quiz</h2>
+        <h3 class="results_message"></h3>
+
+    </section>
+    <script src="script.js"></script>
+</main>
+</body>
+</html>

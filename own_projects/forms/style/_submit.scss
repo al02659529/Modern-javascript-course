@@ -1,0 +1,25 @@
+.submit__wrapper{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
+
+
+  input{
+    background-color: $main-color;
+    color: #eeeeee;
+    font-size: 2rem;
+    font-family: "Jost", sans-serif;
+    padding: 1.5rem 10rem;
+    border-radius: 10px;
+
+    &:hover{
+      background-color: $main-color-light;
+    }
+    &:active, &:focus{
+      background-color: #7a89cc;
+    }
+  }
+}

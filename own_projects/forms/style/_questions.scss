@@ -1,0 +1,50 @@
+.form{
+
+  &__wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 30vw));
+    align-items: center;
+    margin-top: 3rem;
+    border: 1px solid darkgray;
+
+    //&:not(:first-child){
+    //  margin-top: 3rem;
+    //}
+    &__img{
+      display: block;
+      height: 25rem;
+      width: 25rem;
+      margin-left: 10rem;
+
+    }
+    &__question{
+      font-size: 3rem;
+      color: whitesmoke;
+      justify-self: start;
+
+    }
+    &__answer{
+      min-height: 2rem;
+      width: 100%;
+      padding: 1rem 1.5rem;
+      justify-self: center;
+      margin-right: 3rem;
+
+    }
+
+    &__option{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      color: navy;
+      font-size: 2rem;
+      &:not(:first-child){
+        margin-top: 1.5rem;
+      }
+      input{
+        margin-left: 1rem;
+        justify-self: start;
+      }
+
+    }
+  }
+}
