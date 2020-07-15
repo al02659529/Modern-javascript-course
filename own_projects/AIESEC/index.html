@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AIESEC APP</title>
+    <link rel="stylesheet" href="sass/main.css">
+</head>
+<body>
+<header class="header">
+    <h1>Break request form</h1>
+</header>
+<form class="form">
+    <input type="text" class="form__input" name="username" placeholder="Your name">
+    <label for="username"></label>
+    <input type="text" class="form__input" name="epid" placeholder="Enter EP ID">
+    <label for="epid"></label>
+    <input type="text" class="form__input" name="opid" placeholder="Enter OP ID">
+    <label for="opid"></label>
+    <input type="submit" placeholder="Submit" title="submit" value="Validar" class="form__submit btn btn-red">
+</form>
+<section class="validation hide stay-out">
+
+<!--    <div class="validation__row">-->
+<!--        <div class="th">Descripción</div><div class="tc">Valor</div>-->
+<!--    </div>-->
+<!--    <div class="epname validation__row">-->
+<!--        <div class="th">EP Name:</div><div class="tc"></div>-->
+<!--    </div>-->
+<!--    <div class="hl validation__row">-->
+<!--        <div class="th">Home LC:</div><div class="tc"></div>-->
+
+<!--    </div>-->
+<!--    <div class="hc validation__row">-->
+<!--        <div class="th">Home Country:</div><div class="tc"></div>-->
+<!--    </div>-->
+<!--    <div class="statustobreak validation__row">-->
+<!--        <div class="th">Status to break:</div><div class="tc"></div>-->
+<!--    </div>-->
+    <table>
+        <tr>
+            <th>Descripcion</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>EP Name</td>
+            <td class="epname">Carlos Sanchez</td>
+        </tr>
+        <tr>
+            <td>Home LC</td>
+            <td class="hl">Culiacan</td>
+        </tr>
+        <tr>
+            <td>Home Country</td>
+            <td class="hc">Mexico</td>
+        </tr>
+        <tr>
+            <td>Status to break</td>
+            <td class="statustobreak">Carlos Sanchez</td>
+        </tr>
+    </table>
+
+    <h3 class="delay">¿Es toda la información correcta?</h3>
+    <div class="botones delay">
+        <button class="btn mr-small" >Sí, mandar solicitud</button>
+        <button class="btn">No, cambiaré los datos</button>
+    </div>
+
+
+</section>
+
+<section class="infoerror">
+    <h3></h3>
+</section>
+
+<script src="scripts/getEPdata.js"></script>
+<script src="scripts/app.js"></script>
+<script src="scripts/sandbox.js"></script>
+</body>
+</html>

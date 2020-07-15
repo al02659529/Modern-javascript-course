@@ -1,0 +1,16 @@
+
+$main-color:  #037Ef3;
+$white-color: #F3F4F7;
+$gray-light-color: #CACCD1;
+$gray-dark-color: #52565E;
+$alternate-color-orange: #F85A40;
+$alternate-color-green: #0A8EA0;
+
+body{
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: $main-color;
+  font-family: "Lato", sans-serif;
+}

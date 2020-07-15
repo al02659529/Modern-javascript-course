@@ -7,7 +7,7 @@ console.log(dateFns.format(now, 'YYYY'));
 console.log(dateFns.format(now, 'MMMM'));
 console.log(dateFns.format(now, 'dddd'));
 console.log(dateFns.format(now, 'Do'));
-console.log(dateFns.format(now, 'dddd, Do MMMM, YYYY'));
+console.log(dateFns.format(now, 'dddd, Do MMMM, YYYY'));gi
 
 // comparing dates
 const before = new Date('February 1 2019 12:00:00');

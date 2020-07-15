@@ -1,0 +1,167 @@
+body {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #037Ef3;
+  font-family: "Lato", sans-serif;
+}
+
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.stay-out {
+  left: -100%;
+}
+
+.move-top {
+  transform: translateY(-55%);
+  left: 25%;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 0.6rem 2rem;
+  border-radius: 5px;
+  background-color: #F85A40;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 0.1px solid transparent;
+  transition: all 0.2s;
+  transform: translateY(0);
+}
+.btn:hover {
+  border: 0.1px solid black;
+  background-color: #f85a40;
+  transform: translateY(-5px);
+}
+.btn:focus {
+  background-color: #f85a40;
+  transform: translateY(-1px);
+}
+.btn:active {
+  background-color: #f85a40;
+  transform: translateY(0);
+}
+
+.mr-small {
+  margin-right: 1rem;
+}
+
+.form {
+  margin-top: 1rem;
+  display: grid;
+  justify-items: center;
+  grid-gap: 0.3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #F3F4F7;
+  font-weight: 600;
+}
+
+.validation {
+  position: absolute;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  color: #F3F4F7;
+  transition: opacity 1s, transform 0.6s;
+}
+.validation__row {
+  border: 1px solid #F3F4F7;
+  padding: 1rem 2rem;
+  min-width: 40vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.validation__row:nth-child(odd) {
+  background-color: #0A8EA0;
+}
+.validation__row:nth-child(even) {
+  background-color: #f48924;
+}
+.validation__row:first-child {
+  background-color: #52565E;
+}
+.validation h3 {
+  font-size: 1.3rem;
+}
+.validation table {
+  font-size: 1rem;
+  text-align: center;
+}
+.validation table td, .validation table th {
+  border: 1px solid #52565E;
+  padding: 0.8rem 5rem;
+}
+.validation table tr:nth-child(odd) {
+  background-color: #0A8EA0;
+}
+.validation table tr:nth-child(even) {
+  background-color: #f48924;
+}
+.validation table tr:first-child {
+  background-color: #52565E;
+}
+
+.botones {
+  display: flex;
+}
+
+.form {
+  position: relative;
+}
+.form__input {
+  min-width: 30vw;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: 1px solid #CACCD1;
+  transition: all 0.1s;
+}
+.form__input:hover, .form__input:active {
+  border: 1px solid black;
+}
+.form__input:focus {
+  border: 2px solid #F85A40;
+}
+.form__submit {
+  margin-top: 1rem;
+  padding: 0.6rem 2rem;
+  border-radius: 5px;
+  background-color: #F85A40;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  transition: all 0.2s;
+  transform: translateY(0);
+}
+.form__submit:hover {
+  border: 0.1px solid black;
+  background-color: #f85a40;
+  transform: translateY(-5px);
+}
+.form__submit:focus {
+  background-color: #f85a40;
+  transform: translateY(-1px);
+}
+.form__submit:active {
+  background-color: #f85a40;
+  transform: translateY(0);
+}
+
+/*# sourceMappingURL=main.css.map */

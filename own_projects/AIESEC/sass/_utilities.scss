@@ -1,0 +1,43 @@
+.hide{
+  visibility: hidden;
+  opacity: 0;
+}
+
+.stay-out{
+  left: -100%;
+
+}
+.move-top{
+  transform: translateY(-55%);
+  left: 25%;
+}
+
+.btn{
+  margin-top: 1rem;
+  padding: .6rem 2rem;
+  border-radius: 5px;
+  background-color: $alternate-color-orange;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: .1px solid transparent;
+  transition: all .2s;
+  transform: translateY(0);
+  &:hover{
+    border: .1px solid black;
+    background-color: rgba($alternate-color-orange, 1.1);
+    transform: translateY(-5px);
+  }
+  &:focus{
+    background-color: rgba($alternate-color-orange, 1.4);
+    transform: translateY(-1px);
+  }
+  &:active{
+    background-color: rgba($alternate-color-orange, 1.6);
+    transform: translateY(0);
+  }
+}
+
+.mr-small{
+  margin-right: 1rem;
+}
